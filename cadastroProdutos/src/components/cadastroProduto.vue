@@ -11,7 +11,7 @@ const dataCadastro = ref('');
 const funcionarios = ref(false);
 
 const cadastroFuncionario = () => {
-    funcionarios.value = !mostrarTemplateAdicional.value;
+    funcionarios.value = !funcionarios.value;
 };
 
 </script>
